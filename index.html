@@ -21,7 +21,7 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
+    <link rel="stylesheet" href="./css/animate.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -37,8 +37,8 @@
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                
-                
+
+
                     <span class="light">Get to Know</span> Khalil
                 </a>
             </div>
@@ -50,12 +50,19 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+
                     <li>
                         <a class="page-scroll" href="#about">About Me</a>
                     </li>
+
                     <li>
-                        <a class="page-scroll" href="#download">Download Resume</a>
+                        <a class="page-scroll" href="#resume">Resume</a>
                     </li>
+
+                    <li>
+                        <a class="page-scroll" href="#portofolio">Projects</a>
+                    </li>
+
                     <li>
                         <a class="page-scroll" href="#contact">Get in Touch</a>
                     </li>
@@ -70,33 +77,111 @@
     <header class="intro">
         <div class="intro-body">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+
+                    <div class="col-lg-6 col-lg-offset-2">
                         <h1 class="brand-heading">Al Khalil Alwaini</h1>
                         <p class="intro-text">A Resume.</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
                     </div>
-                </div>
+
             </div>
         </div>
     </header>
 
     <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
+    <section id="about" class="container content-section">
+        <div class="container">
+
+            <div class="col-md-6">
                 <h2>About Al Khalil Alwaini</h2>
-                <p>Al Khalil is a student from Indonesia. he has 2 siblings and he has special passsion in Computing Science and Photography.</a></p>
-                <p>He grew up in Makassar, the fifth largest city in Indonesia, then he moved to Jakarta to continue his high school education where he discovers his passion in Computing Technology</p>
-                <p>Currently he resides in Toronto</a> where he is pursuing his education in Computing Science at Ryerson University.</a>.</p>
+                <p>I am a student from Indonesia. I currently study at Ryerson Univesity in Toronto, Canada</a></p>
+                <p>Being a computer science major makes me believe that every problem has a special way to solve it</p>
+                <p>I enjoy coding and photography. Right now, I am focusing on Machine Learning and Web Development</a>.</p>
+            </div>
+
+            <div class="col-md-6 ">
+                <img src="./img/c.jpg" class="animated img-responsive img-circle content-section2" alt="Cortex" width="350" height="289">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="resume" class="container content-section2">
+        <div class="container">
+
+            <div class="col-xs-4 ">
+                <h2>Skills</h2>
+            </div>
+
+            <div class="col-xs-4">
+                <!-- <img src="./img/c.jpg" class="img-responsive img-circle content-section2" alt="Cortex" width="350" height="289"> -->
+                <h4>Python</h4>
+                <h4>Java</h4>
+                <h4>C</h4>
+            </div>
+
+            <div class="col-xs-4">
+                <!-- <img src="./img/c.jpg" class="img-responsive img-circle content-section2" alt="Cortex" width="350" height="289"> -->
+                <h4>Bootstrap</h4>
+                <h4>HTML</h4>
+                <h4>CSS</h4>
             </div>
         </div>
     </section>
 
+
+    <!-- Portofolio Section -->
+    <section id="portofolio" class="text-center">
+        <h2 class="content-section2">Projects</h2>
+        <div class="container">
+          <div class="col-md-6">
+            <img src="./img/a.jpg" class="img-responsive img-rounded content-section2" alt="Cortex" width="350" height="286">
+          </div>
+          <div class="col-md-6">
+            <div class="row text-left">
+              <h3>Cortex</h3>
+              <h4>February 2017</h4>
+              <p>Cortex is a program I made to predict the movement of a stock within certain days.
+                More than that, it is also equipped with technical indicator that i love to use such as:
+                Bollinger Band,
+                MACD,
+                and Relative Strength Index.
+              </p>
+              <p>
+                Cortex is built on Python. Moreover, Pandas is used to get the data and all calculations. scikit-learn is used for the machine learning features of Cortex
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="col-md-6">
+            <img src="./img/b.jpg" class="img-rounded img-responsive content-section2" alt="Noobs Trader Logo" width="450" height="286">
+          </div>
+          <div class="col-md-6">
+            <div class="row text-left">
+              <h3><a href="http://noobstrader.id">noobstrader.id</a></h3>
+              <h4>January 2017</h4>
+              <p>noobstrader.id is a social startup that I co-founded
+              </p>
+              <p>
+               The vision of noobstrader is to increase awareness of investing in Indoneia.
+               We want to persuade young Indonesians to invest in Indonesian stock market.
+               Hence why we are active in social media.
+              </p>
+              <p>
+               noobstrader.id website is built on Bootstrap 3. It will soon adopt Django CMS.
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+
     <!-- Download Section -->
-    <section id="download" class="content-section text-center">
+    <!-- <section id="download" class="content-section text-center">
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -105,7 +190,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
@@ -117,7 +202,17 @@
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
+                        <a href="https://facebook.com/donkhalil" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                    <li>
                         <a href="https://twitter.com/donkhalil18" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+
+                    <li>
+                        <a href="https://instagram.com/donkhalil" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/notdon" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
                 </ul>
             </div>
@@ -127,7 +222,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Khalil Alwaini 2016</p>
+            <p>Copyright &copy; Al Khalil Alwaini 2017</p>
         </div>
     </footer>
 
