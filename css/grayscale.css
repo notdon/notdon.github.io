@@ -63,7 +63,7 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: 2px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
@@ -148,7 +148,7 @@ a:focus {
 
 .intro .intro-body {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: middle;;
 }
 
 .intro .intro-body .brand-heading {
@@ -214,7 +214,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -231,7 +231,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -252,6 +252,24 @@ a:focus {
     padding-top: 100px;
 }
 
+.content-section2 {
+    padding-bottom: 100px;
+}
+
+.content-section3 {
+    padding-left: 100px;
+}
+
+.content-section4 {
+    padding-right: 100px;
+}
+
+.noobstrader{
+  background: url(../img/b.jpg)
+}
+.cortex{
+  background: url(../img/a.jpg)
+}
 .download-section {
     width: 100%;
     padding: 50px 0;
@@ -272,7 +290,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 200px;
     }
 
     .download-section {
